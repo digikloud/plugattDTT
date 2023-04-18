@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden;
+  padding: 0%;
+  margin: 0;
+}
+#root {
+  overflow-x: hidden;
+}
+.container_with_shadow {
+  padding: 5px;
+  /* margin:0px 10px; */
+  background-color: #191c24;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.text_grey {
+  color: white;
+}
+.power_values {
+  color: #9e9e9e;
+}
+.power_units {
+  color: #00d25b;
+  font-size: 15px;
+}
+/* #treeview_title{
+  font-size: 31px;
+} */

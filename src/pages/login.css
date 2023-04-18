@@ -1,0 +1,7 @@
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait){
+    .paperstyle{
+        background-color: aqua;
+    }
+}
