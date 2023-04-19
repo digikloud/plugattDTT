@@ -6,7 +6,7 @@ import { Map } from "./map";
 function AnalyticsIndex() {
   return (
     <div>
-      <Grid container >
+      <Grid container>
         <Grid item md={3} sm={3} lg={3}>
           <CustomizedTreeView />
         </Grid>
@@ -15,13 +15,13 @@ function AnalyticsIndex() {
         </Grid>
       </Grid>
 
-      <Grid container >
-        <Grid item md={5} sx={{marginTop:'10px'}}>
+      <Grid container spacing={1} marginTop={0}>
+        <Grid item md={5}>
           <Map />
         </Grid>
-        <Grid item md={7} sx={{marginTop:'10px'}} rowSpacing={2}>
+        <br />
+        <Grid item md={7}>
           <Chartdata />
-          {/* <Chartdata /> */}
         </Grid>
       </Grid>
     </div>

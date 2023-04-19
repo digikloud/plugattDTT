@@ -9,6 +9,7 @@ import EChartsReact from "echarts-for-react";
 import "./analytics.css";
 import { useSelector } from "react-redux";
 import { Typography } from "@mui/material";
+import { Stack } from "@mui/system";
 
 // const Item = styled(Paper)(({ theme }) => ({
 //   backgroundColor: "#191c24",
@@ -79,9 +80,9 @@ function AnalyticsDetails({ details }) {
             type="radialBar"
             height="220"
           />
-        <Typography className="consumptionunit" variant="subtitle2">
-          Nodes
-        </Typography>
+          <Typography className="consumptionunit" variant="subtitle2">
+            Nodes
+          </Typography>
         </Grid>
 
         <Grid item md={3} lg={3} sm={3}>
@@ -118,45 +119,43 @@ function AnalyticsDetails({ details }) {
 }
 export default AnalyticsDetails;
 
-export function Chartdata({ details }){
+export function Chartdata({ details }) {
   const { selectedItem } = useSelector(
     (state) => state.dashboardreducer.analytics
   );
   return (
-    <>
-      <Grid item md={12} sx={{ml:'10px',mb:'5px'}} className="analyticsBottom container_with_shadow">
-      <Grid>
-      <Typography>
-          <b>Daily</b>
-        </Typography>
-        <EChartsReact
-          style={{ height: "200px" }}
-          option={optionbarchart(selectedItem.mockdata1.timestamp ,selectedItem.mockdata1.value , [
-            "#bdcf32",
-            "#87bc45",
-            "#27aeef",
-            "#b33dc6",
-          ])}
-        />
-      </Grid>      
-      </Grid>
-      <Grid item md={12} sx={{ml:'10px',mb:'5px'}} className="analyticsBottom container_with_shadow">
-      <Grid>
-      <Typography>
-          <b>Weekly</b>
-        </Typography>
-        <EChartsReact
-          style={{ height: "200px" }}
-          option={optionbarchart(selectedItem.mockdata1.timestamp ,selectedItem.mockdata1.value , [
-            "#bdcf32",
-            "#87bc45",
-            "#27aeef",
-            "#b33dc6",
-          ])}
-        />
-      </Grid>      
-      </Grid>
-    </>
-  )
+    <Stack spacing={0.5}>
+      <div md={12} className="analyticsBottom container_with_shadow">
+        <div>
+          <Typography>
+            <b>Daily</b>
+          </Typography>
+          <EChartsReact
+            style={{ height: "200px" }}
+            option={optionbarchart(
+              selectedItem.mockdata1.timestamp,
+              selectedItem.mockdata1.value,
+              ["#bdcf32", "#87bc45", "#27aeef", "#b33dc6"]
+            )}
+          />
+        </div>
+      </div>
+      <div className="analyticsBottom container_with_shadow">
+        <Grid>
+          <Typography>
+            <b>Weekly</b>
+          </Typography>
+          <EChartsReact
+            style={{ height: "200px" }}
+            option={optionbarchart(
+              selectedItem.mockdata1.timestamp,
+              selectedItem.mockdata1.value,
+              ["#bdcf32", "#87bc45", "#27aeef", "#b33dc6"]
+            )}
+          />
+        </Grid>
+      </div>
+    </Stack>
+  );
 }
 // export default Chartdata;
