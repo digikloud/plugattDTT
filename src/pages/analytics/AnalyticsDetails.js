@@ -135,6 +135,14 @@ export function Chartdata({ details }) {
             option={optionbarchart(
               selectedItem.mockdata1.timestamp,
               selectedItem.mockdata1.value,
+              [
+                "12AM-4AM",
+                "4AM-8AM",
+                "8AM-12PM",
+                "12PM-4PM",
+                "4PM-8PM",
+                "8PM-12AM",
+              ],
               ["#bdcf32", "#87bc45", "#27aeef", "#b33dc6"]
             )}
           />
@@ -150,6 +158,7 @@ export function Chartdata({ details }) {
             option={optionbarchart(
               selectedItem.mockdata1.timestamp,
               selectedItem.mockdata1.value,
+              ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
               ["#bdcf32", "#87bc45", "#27aeef", "#b33dc6"]
             )}
           />

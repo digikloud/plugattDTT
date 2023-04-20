@@ -18,7 +18,7 @@ const color = [
 const colors = ["#849cdd", "#aed29f"];
 
 // Left bar chart
-export let optionbarchart = (x, y, color = color) => ({
+export let optionbarchart = (x, y, label, color = color) => ({
   xAxis: {
     name: "Date",
     nameLocation: "middle",
@@ -36,11 +36,7 @@ export let optionbarchart = (x, y, color = color) => ({
         color: "#6c7293",
       },
     },
-    data: ["", "", "", "", "", "", ""].map((item, ind) => {
-      return x[x?.length > 7 ? x?.length + ind - 7 : ind]
-        ? dayjs(x[x.length > 7 ? x.length + ind - 7 : ind]).format("DD-MM")
-        : item;
-    }),
+    data: label,
   },
   yAxis: {
     type: "value",
