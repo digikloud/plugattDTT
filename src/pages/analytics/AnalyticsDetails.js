@@ -37,10 +37,10 @@ function AnalyticsDetails({ details }) {
       >
         <Grid item md={3} lg={3} sm={3}>
           <Chart
-            key={selectedItem.totalCities}
+            key={selectedItem.totalVoltage}
             options={options2.options(
               "Total Demand",
-              selectedItem.totalCities,
+              selectedItem.totalVoltage,
               "#ea5545"
             )}
             series={options2.series(75)}
@@ -48,7 +48,7 @@ function AnalyticsDetails({ details }) {
             height="220"
           />
           <Typography className="consumptionunit" variant="subtitle2">
-            Cities
+            {/* Cities */}
           </Typography>
         </Grid>
         <Grid item md={3} lg={3} sm={3}>
@@ -88,8 +88,8 @@ function AnalyticsDetails({ details }) {
           <Chart
             key={selectedItem.totalVoltage}
             options={options2.options(
-              "Total Demand",
-              selectedItem.totalVoltage,
+              "Total Users",
+              100,// selectedItem.totalVoltage, 
               "#edbf33"
             )}
             series={options2.series(75)}
@@ -97,7 +97,7 @@ function AnalyticsDetails({ details }) {
             height="220"
           />
           <Typography className="consumptionunit" variant="subtitle2">
-            Real Time
+            {/* Real Time */}
           </Typography>
         </Grid>
       </Grid>

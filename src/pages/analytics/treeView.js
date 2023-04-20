@@ -23,7 +23,7 @@ function FileSystemNavigator() {
     {
       id: 2,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 270,
       totalNodes: 3,
       value: 4,
@@ -35,7 +35,7 @@ function FileSystemNavigator() {
     {
       id: 3,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 200,
       totalNodes: 1,
       value: 4,
@@ -47,7 +47,7 @@ function FileSystemNavigator() {
     {
       id: 4,
       totalCities: 2,
-      totalZones: 0,
+      totalZones: 1,
       totalVoltage: 50,
       totalNodes: 1,
       value: 34,
@@ -59,7 +59,7 @@ function FileSystemNavigator() {
     {
       id: 5,
       totalCities: 2,
-      totalZones: 0,
+      totalZones: 1,
       totalVoltage: 20,
       totalNodes: 1,
       value: 4,
@@ -71,7 +71,7 @@ function FileSystemNavigator() {
     {
       id: 6,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 670,
       totalNodes: 3,
       value: 4,
@@ -83,9 +83,9 @@ function FileSystemNavigator() {
     {
       id: 7,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 150,
-      totalNodes: 3,
+      totalNodes: 1,
       value: 4,
       mockdata1 : {
         timestamp: [12, 22, 21, 21, 22],
@@ -95,7 +95,7 @@ function FileSystemNavigator() {
     {
       id: 8,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 220,
       totalNodes: 1,
       value: 4,
@@ -107,7 +107,7 @@ function FileSystemNavigator() {
     {
       id: 9,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 300,
       totalNodes: 1,
       value: 4,
@@ -131,7 +131,7 @@ function FileSystemNavigator() {
     {
       id: 11,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 90,
       totalNodes: 3,
       value: 4,
@@ -143,9 +143,9 @@ function FileSystemNavigator() {
     {
       id: 12,
       totalCities: 2,
-      totalZones: 20,
+      totalZones: 1,
       totalVoltage: 50,
-      totalNodes: 10,
+      totalNodes: 1,
       value: 4,
       mockdata1 : {
         timestamp: [129, 242, 121, 86, 198],
@@ -155,9 +155,9 @@ function FileSystemNavigator() {
     {
       id: 13,
       totalCities: 2,
-      totalZones: 20,
+      totalZones: 1,
       totalVoltage: 25,
-      totalNodes: 10,
+      totalNodes: 1,
       value: 4,
       mockdata1 : {
         timestamp: [129, 242, 121, 86, 198],
@@ -167,9 +167,9 @@ function FileSystemNavigator() {
     {
       id: 14,
       totalCities: 2,
-      totalZones: 20,
+      totalZones: 1,
       totalVoltage: 15,
-      totalNodes: 10,
+      totalNodes: 1,
       value: 4,
       mockdata1 : {
         timestamp: [129, 242, 121, 86, 198],
@@ -179,7 +179,7 @@ function FileSystemNavigator() {
     {
       id: 15,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 654,
       totalNodes: 3,
       value: 4,
@@ -191,9 +191,9 @@ function FileSystemNavigator() {
     {
       id: 15,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 6,
-      totalNodes: 3,
+      totalNodes: 1,
       value: 4,
       mockdata1 : {
         timestamp: [129, 242, 121, 86, 198],
@@ -203,9 +203,9 @@ function FileSystemNavigator() {
     {
       id: 16,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 500,
-      totalNodes: 3,
+      totalNodes: 1,
       value: 4,
       mockdata1 : {
         timestamp: [129, 242, 121, 86, 198],
@@ -215,9 +215,9 @@ function FileSystemNavigator() {
     {
       id: 17,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 98,
-      totalNodes: 3,
+      totalNodes: 1,
       value: 4,
       mockdata1 : {
         timestamp: [129, 242, 121, 86, 198],
@@ -227,9 +227,9 @@ function FileSystemNavigator() {
     {
       id: 18,
       totalCities: 2,
-      totalZones: 2,
+      totalZones: 1,
       totalVoltage: 56,
-      totalNodes: 3,
+      totalNodes: 1,
       value: 4,
       mockdata1 : {
         timestamp: [129, 242, 121, 86, 198],
