@@ -16,6 +16,7 @@ export function Map() {
   return (
     <div><MapsComponent background="#191c24" mapsArea={{
       background: '#191c24',
+      borderRadius : '50px',
       border: {
           width: 2,
           // color: 'green'
@@ -38,29 +39,64 @@ export function Map() {
                 animationDuration={0}
                 dataSource={[
                   {
-                    latitude: 49.95121990866204,
-                    longitude: 18.468749999999998,
-                    name: 'MarkerOne',
+                    latitude: 4.668340,
+                    longitude: -74.054220,
+                    name: 'Node 1',
                   },
                   {
-                    latitude: 59.88893689676585,
-                    longitude: -109.3359375,
-                    name: 'MarkerTwo',
+                    latitude: 4.616560,
+                    longitude: -74.104050,
+                    name: 'Node 2',
                   },
                   {
-                    latitude: -6.64607562172573,
-                    longitude: -55.54687499999999,
-                    name: 'MarkerThree',
+                    latitude: 4.670530,
+                    longitude: -74.159940,
+                    name: 'Node 3',
                   },
                   {
-                    latitude: 23.644385824912135,
-                    longitude: 77.83189239539234,
-                    name: 'MarkerFour',
+                    latitude: 4.693510,
+                    longitude: -74.033020,
+                    name: 'Node 20',
                   },
                   {
-                    latitude: -25.274399,
-                    longitude: 133.775131,
-                    name: 'Australia',
+                    latitude: 4.703690,
+                    longitude: -74.032980,
+                    name: 'Node 21',
+                  },
+                  {
+                    latitude: 4.729000,
+                    longitude: -74.040740,
+                    name: 'Node 22',
+                  },
+                  {
+                    latitude: 3.464630,
+                    longitude: -76.516040,
+                    name: 'Node 120',
+                  },
+                  {
+                    latitude: 3.487700,
+                    longitude: -76.529860,
+                    name: 'Node 110',
+                  },
+                  {
+                    latitude: 3.453830,
+                    longitude: -76.554240,
+                    name: 'Node 150',
+                  },
+                  {
+                    latitude: 3.464610,
+                    longitude: -76.515890,
+                    name: 'Node 40',
+                  },
+                  {
+                    latitude: 3.484430,
+                    longitude: -76.525800,
+                    name: 'Node 45',
+                  },
+                  {
+                    latitude: 4.726750,
+                    longitude: -74.088990,
+                    name: 'Node 55',
                   },
                 ]}
                 shape="Balloon"

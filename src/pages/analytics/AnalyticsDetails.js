@@ -37,7 +37,7 @@ function AnalyticsDetails({ details }) {
       >
         <Grid item md={3} lg={3} sm={3}>
           <Chart
-            key={selectedItem.totalVoltage}
+            key={selectedItem.totalCities}
             options={options2.options(
               "Total Demand",
               selectedItem.totalCities,
@@ -53,10 +53,10 @@ function AnalyticsDetails({ details }) {
         </Grid>
         <Grid item md={3} lg={3} sm={3}>
           <Chart
-            key={selectedItem.totalNodes}
+            key={selectedItem.totalZones}
             options={options2.options(
               "Total Demand",
-              selectedItem.totalNodes,
+              selectedItem.totalZones,
               "#f46a9b"
             )}
             series={options2.series(75)}
@@ -69,10 +69,10 @@ function AnalyticsDetails({ details }) {
         </Grid>
         <Grid item md={3} lg={3} sm={3}>
           <Chart
-            key={selectedItem.totalZones}
+            key={selectedItem.totalNodes}
             options={options2.options(
               "Total Demand",
-              selectedItem.totalZones,
+              selectedItem.totalNodes,
               "#ef9b20"
             )}
             series={options2.series(75)}
@@ -86,7 +86,7 @@ function AnalyticsDetails({ details }) {
 
         <Grid item md={3} lg={3} sm={3}>
           <Chart
-            key={selectedItem.totalZones}
+            key={selectedItem.totalVoltage}
             options={options2.options(
               "Total Demand",
               selectedItem.totalVoltage,

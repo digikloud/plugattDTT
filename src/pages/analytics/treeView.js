@@ -10,11 +10,11 @@ function FileSystemNavigator() {
   const details = [
     {
       id: 1,
-      totalCities: 280,
-      totalZones: 230,
-      totalVoltage: 2969,
-      totalNodes: 210,
-      value: 34,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 940,
+      totalNodes: 6,
+      // value: 34,
       mockdata1 : {
         timestamp: [12, 22, 21, 21, 22],
         value: [18, 36, 20, 32, 11],
@@ -22,10 +22,10 @@ function FileSystemNavigator() {
     },
     {
       id: 2,
-      totalCities: 100,
-      totalZones: 20,
-      totalVoltage: 4969,
-      totalNodes: 10,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 270,
+      totalNodes: 3,
       value: 4,
       mockdata1 : {
         timestamp: [29, 42, 12, 13, 19],
@@ -34,10 +34,10 @@ function FileSystemNavigator() {
     },
     {
       id: 3,
-      totalCities: 60,
-      totalZones: 12,
-      totalVoltage: 969,
-      totalNodes: 16,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 200,
+      totalNodes: 1,
       value: 4,
       mockdata1 : {
         timestamp: [12, 22, 21, 21, 22],
@@ -45,11 +45,11 @@ function FileSystemNavigator() {
       }
     },
     {
-      id: 11,
-      totalCities: 280,
-      totalZones: 230,
-      totalVoltage: 2969,
-      totalNodes: 210,
+      id: 4,
+      totalCities: 2,
+      totalZones: 0,
+      totalVoltage: 50,
+      totalNodes: 1,
       value: 34,
       mockdata1 : {
         timestamp: [12, 22, 21, 21, 22],
@@ -57,11 +57,11 @@ function FileSystemNavigator() {
       }
     },
     {
-      id: 12,
-      totalCities: 100,
-      totalZones: 20,
-      totalVoltage: 4969,
-      totalNodes: 10,
+      id: 5,
+      totalCities: 2,
+      totalZones: 0,
+      totalVoltage: 20,
+      totalNodes: 1,
       value: 4,
       mockdata1 : {
         timestamp: [54, 35, 11, 26, 18],
@@ -69,35 +69,167 @@ function FileSystemNavigator() {
       }
     },
     {
-      id: 13,
-      totalCities: 60,
-      totalZones: 12,
-      totalVoltage: 969,
-      totalNodes: 16,
-      value: 4,
-      mockdata1 : {
-        timestamp: [12, 22, 21, 21, 22],
-        value: [18, 36, 20, 32, 11],
-      }
-    },
-    {
-      id: 5,
-      totalCities: 60,
-      totalZones: 12,
-      totalVoltage: 969,
-      totalNodes: 16,
-      value: 4,
-      mockdata1 : {
-        timestamp: [12, 22, 21, 21, 22],
-        value: [18, 36, 20, 32, 11],
-      }
-    },
-    {
       id: 6,
-      totalCities: 100,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 670,
+      totalNodes: 3,
+      value: 4,
+      mockdata1 : {
+        timestamp: [12, 22, 21, 21, 22],
+        value: [18, 36, 20, 32, 11],
+      }
+    },
+    {
+      id: 7,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 150,
+      totalNodes: 3,
+      value: 4,
+      mockdata1 : {
+        timestamp: [12, 22, 21, 21, 22],
+        value: [18, 36, 20, 32, 11],
+      }
+    },
+    {
+      id: 8,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 220,
+      totalNodes: 1,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 9,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 300,
+      totalNodes: 1,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 10,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 744,
+      totalNodes: 6,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 11,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 90,
+      totalNodes: 3,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 12,
+      totalCities: 2,
       totalZones: 20,
-      totalVoltage: 4969,
+      totalVoltage: 50,
       totalNodes: 10,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 13,
+      totalCities: 2,
+      totalZones: 20,
+      totalVoltage: 25,
+      totalNodes: 10,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 14,
+      totalCities: 2,
+      totalZones: 20,
+      totalVoltage: 15,
+      totalNodes: 10,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 15,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 654,
+      totalNodes: 3,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 15,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 6,
+      totalNodes: 3,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 16,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 500,
+      totalNodes: 3,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 17,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 98,
+      totalNodes: 3,
+      value: 4,
+      mockdata1 : {
+        timestamp: [129, 242, 121, 86, 198],
+        value: [180, 236, 120, 332, 211],
+      }
+    },
+    {
+      id: 18,
+      totalCities: 2,
+      totalZones: 2,
+      totalVoltage: 56,
+      totalNodes: 3,
       value: 4,
       mockdata1 : {
         timestamp: [129, 242, 121, 86, 198],
@@ -108,42 +240,84 @@ function FileSystemNavigator() {
 
   const treeViewdata = [
     {
-      id: "Chennai",
+      id: "Bogotá",
       nodeId: 1,
       children: [
         {
-          id: "zone1",
+          id: "Chapinero",
           nodeId: 2,
           children: [
             {
-              id: "node1",
+              id: "1",
               nodeId: 3,
+            },
+            {
+              id: "2",
+              nodeId: 4,
+            },
+            {
+              id: "3",
+              nodeId: 5,
             },
           ],
         },
         {
-          id: "zone2",
-          nodeId: 5,
+          id: "Usaquen",
+          nodeId: 6,
           children: [
             {
-              id: "node2",
-              nodeId: 6,
+              id: "20",
+              nodeId: 7,
+            },
+            {
+              id: "21",
+              nodeId: 8,
+            },
+            {
+              id: "22",
+              nodeId: 9,
             },
           ],
         },
       ],
     },
     {
-      id: "Bengaluru",
-      nodeId: 11,
+      id: "Cali",
+      nodeId: 10,
       children: [
         {
-          id: "zone 1",
-          nodeId: 12,
+          id: "Aguacatal",
+          nodeId: 11,
           children: [
             {
-              id: "Node 1",
+              id: "120",
+              nodeId: 12,
+            },
+            {
+              id: "110",
               nodeId: 13,
+            },
+            {
+              id: "150",
+              nodeId: 14,
+            },
+          ],
+        },
+        {
+          id: "Rural",
+          nodeId: 15,
+          children: [
+            {
+              id: "40",
+              nodeId: 16,
+            },
+            {
+              id: "45",
+              nodeId:17,
+            },
+            {
+              id: "55",
+              nodeId: 18,
             },
           ],
         },
@@ -151,6 +325,13 @@ function FileSystemNavigator() {
     },
   ];
 
+  // const detail1 = [
+  //   {
+  //     id : 1 ,
+  //     nodeId : 1 ,
+  //     name : "Bogoto"
+  //   }
+  // ]
   const dispatch = useDispatch();
 
   const handleclicktree = (data) => {
