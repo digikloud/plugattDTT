@@ -87,10 +87,10 @@ function AnalyticsDetails({ details }) {
 
         <Grid item md={3} lg={3} sm={3}>
           <Chart
-            key={selectedItem.totalVoltage}
+            key={selectedItem.totalUsers}
             options={options2.options(
               "Total Users",
-              100,// selectedItem.totalVoltage, 
+               selectedItem.totalUsers, 
               "#edbf33"
             )}
             series={options2.series(75)}

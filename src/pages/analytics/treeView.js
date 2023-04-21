@@ -14,10 +14,11 @@ function FileSystemNavigator() {
       totalZones: 2,
       totalVoltage: 940,
       totalNodes: 6,
+      totalUsers : 100,
       // value: 34,
       mockdata1 : {
-        timestamp: [12, 22, 21, 21, 22],
-        value: [18, 36, 20, 32, 11],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -26,10 +27,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 270,
       totalNodes: 3,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [29, 42, 12, 13, 19],
-        value: [98, 56, 123, 73, 61],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -38,10 +40,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 200,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [12, 22, 21, 21, 22],
-        value: [18, 36, 20, 32, 11],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -50,10 +53,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 50,
       totalNodes: 1,
+      totalUsers : 100,
       value: 34,
       mockdata1 : {
-        timestamp: [12, 22, 21, 21, 22],
-        value: [18, 36, 20, 32, 11],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -62,10 +66,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 20,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [54, 35, 11, 26, 18],
-        value: [76, 49, 65, 14, 43],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -74,10 +79,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 670,
       totalNodes: 3,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [12, 22, 21, 21, 22],
-        value: [18, 36, 20, 32, 11],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -86,10 +92,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 150,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [12, 22, 21, 21, 22],
-        value: [18, 36, 20, 32, 11],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -98,10 +105,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 220,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -110,10 +118,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 300,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -122,10 +131,11 @@ function FileSystemNavigator() {
       totalZones: 2,
       totalVoltage: 744,
       totalNodes: 6,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -134,10 +144,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 90,
       totalNodes: 3,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -146,10 +157,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 50,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -158,10 +170,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 25,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -170,22 +183,24 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 15,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
-      }
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
     },
+  },
     {
       id: 15,
       totalCities: 2,
       totalZones: 1,
       totalVoltage: 654,
       totalNodes: 3,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -194,10 +209,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 6,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -206,10 +222,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 500,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -218,10 +235,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 98,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
     {
@@ -230,10 +248,11 @@ function FileSystemNavigator() {
       totalZones: 1,
       totalVoltage: 56,
       totalNodes: 1,
+      totalUsers : 100,
       value: 4,
       mockdata1 : {
-        timestamp: [129, 242, 121, 86, 198],
-        value: [180, 236, 120, 332, 211],
+        timestamp: [129, 242, 121, 86, 198,125,104],
+        value: [180, 236, 120, 332, 211,178,290],
       }
     },
   ];
