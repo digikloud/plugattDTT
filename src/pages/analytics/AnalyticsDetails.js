@@ -56,7 +56,7 @@ function AnalyticsDetails({ details }) {
           <Chart
             key={selectedItem.totalZones}
             options={options2.options(
-              "Total Demand",
+              "Zones",
               selectedItem.totalZones,
               "#f46a9b"
             )}
@@ -64,15 +64,15 @@ function AnalyticsDetails({ details }) {
             type="radialBar"
             height="220"
           />
-          <Typography className="consumptionunit" variant="subtitle2">
+          {/* <Typography className="consumptionunit" variant="subtitle2">
             Zones
-          </Typography>
+          </Typography> */}
         </Grid>
         <Grid item md={3} lg={3} sm={3}>
           <Chart
             key={selectedItem.totalNodes}
             options={options2.options(
-              "Total Demand",
+              "Nodes",
               selectedItem.totalNodes,
               "#ef9b20"
             )}
@@ -80,9 +80,9 @@ function AnalyticsDetails({ details }) {
             type="radialBar"
             height="220"
           />
-          <Typography className="consumptionunit" variant="subtitle2">
+          {/* <Typography className="consumptionunit" variant="subtitle2">
             Nodes
-          </Typography>
+          </Typography> */}
         </Grid>
 
         <Grid item md={3} lg={3} sm={3}>
