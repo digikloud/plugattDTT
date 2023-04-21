@@ -36,7 +36,7 @@ function AnalyticsDetails({ details }) {
         className="container_with_shadow"
         justifyContent="center"
       >
-        <Grid item md={3} lg={3} sm={3}>
+        <Grid item md={3} lg={3} sm={3} xs={12}>
           <Chart
             key={selectedItem.totalVoltage}
             options={options2.options(
@@ -52,7 +52,7 @@ function AnalyticsDetails({ details }) {
             {/* Cities */}
           </Typography>
         </Grid>
-        <Grid item md={3} lg={3} sm={3}>
+        <Grid item md={3} lg={3} sm={3} xs={12}>
           <Chart
             key={selectedItem.totalZones}
             options={options2.options(
@@ -68,7 +68,7 @@ function AnalyticsDetails({ details }) {
             Zones
           </Typography> */}
         </Grid>
-        <Grid item md={3} lg={3} sm={3}>
+        <Grid item md={3} lg={3} sm={3} xs={12}>
           <Chart
             key={selectedItem.totalNodes}
             options={options2.options(
@@ -85,7 +85,7 @@ function AnalyticsDetails({ details }) {
           </Typography> */}
         </Grid>
 
-        <Grid item md={3} lg={3} sm={3}>
+        <Grid item md={3} lg={3} sm={12} xs={12}>
           <Chart
             key={selectedItem.totalUsers}
             options={options2.options(
@@ -149,7 +149,7 @@ export function Chartdata({ details }) {
         </div>
       </div>
       <div className="analyticsBottom container_with_shadow">
-        <Grid>
+        <Grid xs={12}>
           <Typography>
             <b>Weekly</b>
           </Typography>
