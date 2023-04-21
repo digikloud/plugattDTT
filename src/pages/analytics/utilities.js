@@ -40,7 +40,7 @@ export let optionbarchart = (x, y, label, color = color) => ({
   },
   yAxis: {
     type: "value",
-    name: "kWh",
+    name: "kW",
     nameLocation: "middle",
     nameGap: 35,
     nameTextStyle: {
@@ -165,7 +165,7 @@ export const co2option = (
       {
         splitLine: false,
         type: "value",
-        name: "kWh",
+        name: "kW",
         nameLocation: "middle",
         nameGap: 45,
         nameTextStyle: {
