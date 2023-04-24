@@ -33,7 +33,7 @@ function AnalyticsDetails({ details }) {
       <Grid
         container
         // maxWidth="calc(100% - 20px)"
-        className="container_with_shadow"
+        className="container_with_shadow container_with_shadow_top "
         justifyContent="center"
       >
         <Grid item md={3} lg={3} sm={3} xs={12}>
@@ -143,7 +143,8 @@ export function Chartdata({ details }) {
                 "4PM-8PM",
                 "8PM-12AM",
               ],
-              ["#bdcf32", "#87bc45", "#27aeef", "#b33dc6"]
+              ["#bdcf32", "#87bc45", "#27aeef", "#b33dc6"],
+              "line"
             )}
           />
         </div>
@@ -159,7 +160,8 @@ export function Chartdata({ details }) {
               selectedItem.mockdata1.timestamp,
               selectedItem.mockdata1.value,
               ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-              ["#bdcf32", "#87bc45", "#27aeef", "#b33dc6"]
+              ["#bdcf32", "#87bc45", "#27aeef", "#b33dc6"],
+              "bar"
             )}
           />
         </Grid>

@@ -18,7 +18,10 @@ const color = [
 const colors = ["#849cdd", "#aed29f"];
 
 // Left bar chart
-export let optionbarchart = (x, y, label, color = color) => ({
+export let optionbarchart = (x, y, label, color = color,type) => ({
+  tooltip: {
+    trigger: 'axis'
+  },
   xAxis: {
     name: "Date",
     nameLocation: "middle",
@@ -74,7 +77,22 @@ export let optionbarchart = (x, y, label, color = color) => ({
           // borderWidth: 5,
         },
       })),
-      type: "bar",
+      type: type,
+      smooth: true,
+      areaStyle: {
+        opacity: 0.8,
+        color: '#1db8b4',
+        // new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+        //   {
+        //     offset: 0,
+        //     color: '#1db8b4'
+        //   },
+        //   // {
+        //   //   offset: 1,
+        //   //   color: 'rgb(1, 191, 236)'
+        //   // }
+        // ])
+      },
     },
   ],
 });

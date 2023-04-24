@@ -75,7 +75,12 @@ body {
 .icon_navbar svg {
   font-size: 15px;
 }
-
+.logo_text{
+  display: flex;
+  color: #1eb3af;
+  font-size: 22px;
+  font-family: 'rubik';
+}
 @media only screen and (max-width: 600px) {
   .footer {
     display: flex;

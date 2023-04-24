@@ -18,14 +18,10 @@ function DdtIndex() {
         </Grid>
       </Grid>
 
-      <Grid container height={'40vh'} sx={{pt:'10px'}} >
-        {/* <Grid item md={5} sx={{marginTop:'10px'}}>
-          <Map />
-        </Grid> */}
-        <Grid item md={12} sx={{display:'flex'}}>
+      <Grid container sx={{pt:'10px'}} >
+         <Grid item md={12} xs={12} >
           <Chartdata />
-          {/* <Chartdata /> */}
-        </Grid>
+         </Grid>
       </Grid>
     </div>
   );

@@ -78,14 +78,19 @@ export default function NavbarSIdebar() {
             </IconButton>
           )}
           <div className="navtop">
-            <div>
-              <img
-                src={logo}
-                height="25px"
-                style={{ objectFit: "contain" }}
-                width="100px"
-                alt="logo"
-              />
+            <div className="logo_text">
+              <div>
+                <img
+                  src={logo}
+                  height="25px"
+                  style={{ objectFit: "contain" }}
+                  width="100px"
+                  alt="logo"
+                />
+              </div>
+              <div style={{marginTop:'-5px'}}>
+                DDT
+              </div>
             </div>
             <div>
               {window.innerWidth > 730 && (
