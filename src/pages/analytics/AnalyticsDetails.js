@@ -90,7 +90,7 @@ function AnalyticsDetails({ details }) {
             key={selectedItem.totalUsers}
             options={options2.options(
               "Total Users",
-               selectedItem.totalUsers, 
+              selectedItem.totalUsers,
               "#edbf33"
             )}
             series={options2.series(75)}
