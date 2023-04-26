@@ -63,36 +63,55 @@ export let optionbarchart = (x, y, label, color = color,type) => ({
       lineStyle: { color: ["#3c3f45"] },
     },
   },
+  // series: [
+  //   {
+  //     barWidth: "25%",
+  //     itemStyle: {
+  //       opacity: 0.7, // set opacity to 0.7
+  //     },
+  //     data: [0, 0, 0, 0, 0, 0, 0]?.map((val, ind) => ({
+  //       value: y[y?.length > 7 ? y?.length + ind - 7 : ind],
+  //       itemStyle: {
+  //         color: color[ind],
+  //         // borderColor: color[ind], // set border color to black with 50% opacity
+  //         // borderWidth: 5,
+  //       },
+  //     })),
+  //     type: type,
+  //     smooth: true,
+  //     areaStyle: {
+  //       opacity: 0.8,
+  //       color: '#1db8b4',
+  //       // new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+  //       //   {
+  //       //     offset: 0,
+  //       //     color: '#1db8b4'
+  //       //   },
+  //       //   // {
+  //       //   //   offset: 1,
+  //       //   //   color: 'rgb(1, 191, 236)'
+  //       //   // }
+  //       // ])
+  //     },
+  //   },
+  // ],
   series: [
     {
-      barWidth: "25%",
-      itemStyle: {
-        opacity: 0.7, // set opacity to 0.7
-      },
-      data: [0, 0, 0, 0, 0, 0, 0]?.map((val, ind) => ({
-        value: y[y?.length > 7 ? y?.length + ind - 7 : ind],
-        itemStyle: {
-          color: color[ind],
-          // borderColor: color[ind], // set border color to black with 50% opacity
-          // borderWidth: 5,
-        },
-      })),
-      type: type,
-      smooth: true,
-      areaStyle: {
-        opacity: 0.8,
-        color: '#1db8b4',
-        // new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-        //   {
-        //     offset: 0,
-        //     color: '#1db8b4'
-        //   },
-        //   // {
-        //   //   offset: 1,
-        //   //   color: 'rgb(1, 191, 236)'
-        //   // }
-        // ])
-      },
+           barWidth: "25%",
+           itemStyle: {
+             opacity: 0.7, // set opacity to 0.7
+           },
+           type : type,
+           smooth:true,
+           areaStyle : {
+            color : '#1db8b4',
+           },
+           data : y.map((val,ind) =>({
+            value : x[ind] ,
+            itemStyle :{
+              color : color[ind],
+            },
+           }))
     },
   ],
 });

@@ -1,47 +1,77 @@
-import { Grid, Paper } from "@mui/material";
+import { Grid } from "@mui/material";
 import React from "react";
-// import CustomizedTreeView from "./treeView";
-// import AnalyticsDetails, { Chartdata } from "./AnalyticsDetails";
-import CustomizedTreeView, { details } from "../analytics/treeView";
-// import AnalyticsDetails, { Chartdata} from "../analytics/AnalyticsDetails";
+import CustomizedTreeView from "../analytics/treeView";
 import DdtDetails, { Chartdata } from "./ddtdetails";
 import LoadingSwitch from "../../components/LoadingSwitch";
 import { DataGrid } from "@mui/x-data-grid";
-// import { Map } from "./map";
 
 const columns = [
-  { field: "id", headerName: "ID", width: 90 },
+  // { field: "id", headerName: "ID", width: 90 },
   {
-    field: "totalCities",
+    field: "city",
     headerName: "City",
     flex: 1,
+    sortable: false,
   },
   {
-    field: "totalZones",
+    field: "zone",
     headerName: "Zone",
     width: 150,
     flex: 1,
+    sortable: false,
   },
   {
-    field: "totalVoltage",
+    field: "totalpower",
     headerName: "Total Power",
     flex: 1,
+    sortable: false,
   },
   {
     field: "totalUsers",
     headerName: "Total Users",
     flex: 1,
+    sortable: false,
   },
   {
     field: "OnOff",
-    headerName: "Full name",
+    headerName: "On / Off",
     description: "This column has a value getter and is not sortable.",
     sortable: false,
     flex: 1,
     renderCell: (params) => <LoadingSwitch />,
   },
 ];
+const datagriddetails = [
+  {
+    id : 1,
+    city : "Bogotá" ,
+    zone  : "Chapinero",
+    totalpower : 270 ,
+    totalUsers : 100,
+  },
+  {
+    id : 2,
+    city : "Bogotá" ,
+    zone : "Usaquen" ,
+    totalpower : 670 ,
+    totalUsers : 100,
+  },
+  {
+    id : 3,
+    city : "Cali" ,
+    zone  : "Aguacatal",
+    totalpower : 90,
+    totalUsers : 100,
+  },
 
+  {
+    id : 4,
+    city : "Cali" ,
+    zone  : "Rural",
+    totalpower : 654 ,
+    totalUsers : 100,
+  },
+]
 function DdtIndex() {
   return (
     <div>
@@ -59,8 +89,10 @@ function DdtIndex() {
         </Grid>
       </Grid>
 
-      <div style={{ height: "400px" }} className="container_with_shadow">
-        <DataGrid rows={details} columns={columns} />
+      <div style={{ height: "350px" }} className="container_with_shadow datagrid">
+        <DataGrid rows={datagriddetails} columns={columns} disableColumnMenu hideFooterSelectedRowCount
+                hideFooter
+              />
       </div>
     </div>
   );

@@ -1,6 +1,4 @@
 import * as React from "react";
-// import { styled } from "@mui/material/styles";
-// import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Chart from "react-apexcharts";
 import { options2 } from "./utilities";
@@ -11,28 +9,17 @@ import { useSelector } from "react-redux";
 import { Typography } from "@mui/material";
 import { Stack } from "@mui/system";
 
-// const Item = styled(Paper)(({ theme }) => ({
-//   backgroundColor: "#191c24",
-//   ...theme.typography.body2,
-//   padding: theme.spacing(1),
-//   textAlign: "center",
-//   color: theme.palette.text.secondary,
-// }));
 
 function AnalyticsDetails({ details }) {
   const { selectedItem } = useSelector(
     (state) => state.dashboardreducer.analytics
   );
-  // const mockdata1 = {
-  //   timestamp: [12, 22, 21, 21, 22],
-  //   value: [18, 36, 20, 32, 11],
-  // };
+
 
   return (
     <Grid container spacing={2} rowGap={2}>
       <Grid
         container
-        // maxWidth="calc(100% - 20px)"
         className="container_with_shadow container_with_shadow_top "
         justifyContent="center"
       >
@@ -103,17 +90,6 @@ function AnalyticsDetails({ details }) {
         </Grid>
       </Grid>
 
-      {/* <Grid item md={12} className="analyticsBottom container_with_shadow">
-        <EChartsReact
-          style={{ height: "200px" }}
-          option={optionbarchart(selectedItem.mockdata1.timestamp ,selectedItem.mockdata1.value , [
-            "#bdcf32",
-            "#87bc45",
-            "#27aeef",
-            "#b33dc6",
-          ])}
-        />
-      </Grid> */}
     </Grid>
   );
 }
@@ -135,13 +111,16 @@ export function Chartdata({ details }) {
             option={optionbarchart(
               selectedItem.mockdata1.timestamp,
               selectedItem.mockdata1.value,
+              // [
+              //   "12AM-4AM",
+              //   "4AM-8AM",
+              //   "8AM-12PM",
+              //   "12PM-4PM",
+              //   "4PM-8PM",
+              //   "8PM-12AM",
+              // ],
               [
-                "12AM-4AM",
-                "4AM-8AM",
-                "8AM-12PM",
-                "12PM-4PM",
-                "4PM-8PM",
-                "8PM-12AM",
+                1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
               ],
               ["#bdcf32", "#87bc45", "#27aeef", "#b33dc6"],
               "line"
