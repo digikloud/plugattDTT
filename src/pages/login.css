@@ -5,3 +5,8 @@ and (orientation: portrait){
         background-color: aqua;
     }
 }
+.menuStyle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

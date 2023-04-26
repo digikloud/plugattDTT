@@ -16,6 +16,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import AnalyticsIndex from "./pages/analytics/analyticsIndex";
 import DdtIndex from "./pages/ddt/ddtindex";
 // import DdtIndex from "./pages/ddt/ddtIndex";
+import Menu from "./pages/menu/menu";
 const reducer = { dashboardreducer };
 const store = configureStore({
   reducer,
@@ -28,7 +29,8 @@ function App() {
         <QueryClientProvider client={new QueryClient()}>
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Navigate to="login" />} />
+              <Route path="/" element={<Navigate to="menu" />} />
+              <Route path="menu" element={<Menu />} />
               <Route path="login" element={<Login />} />
               <Route
                 path="registration"

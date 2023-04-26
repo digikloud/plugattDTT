@@ -6,8 +6,7 @@ import { optionbarchart } from "../analytics/utilities";
 import EChartsReact from "echarts-for-react";
 import "../analytics/analytics.css";
 import { useSelector } from "react-redux";
-import { Typography ,Stack} from "@mui/material";
-import { color } from "@mui/system";
+import { Typography } from "@mui/material";
 
 
 function DdtDetails({ details }) {
@@ -122,13 +121,16 @@ export function Chartdata({ details }){
             option={optionbarchart(
               selectedItem.mockdata1.timestamp,
               selectedItem.mockdata1.value,
+              // [
+              //   "12-4",
+              //   "4-8",
+              //   "8-12",
+              //   "12-16",
+              //   "16-20",
+              //   "20-24",
+              // ],
               [
-                "12AM-4AM",
-                "4AM-8AM",
-                "8AM-12PM",
-                "12PM-4PM",
-                "4PM-8PM",
-                "8PM-12AM",
+                1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
               ],
               ["#bdcf32", "#87bc45", "#27aeef", "#b33dc6"],
               "line"
