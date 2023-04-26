@@ -112,9 +112,6 @@ export let optionbarchart = (x, y, label, color = color,type) => ({
               color : color[ind],
             },
            }))
-          //  itemStyle :{
-
-          //  }
     },
   ],
 });
