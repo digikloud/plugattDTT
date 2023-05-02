@@ -69,7 +69,7 @@ export default function NavbarSIdebar() {
         elevation={0}
       >
         <Toolbar sx={{ justifyContent: "flex-start" }}>
-          {window.innerWidth < 730 && (
+          {window.innerWidth > 0 && (
             <IconButton
               sx={{ color: "#fff" }}
               onClick={() => setMenuOpen((state) => !state)}
@@ -108,7 +108,7 @@ export default function NavbarSIdebar() {
         </Toolbar>
       </AppBar>
       <Drawer
-        variant={window.innerWidth > 730 ? "permanent" : "temporary"}
+        variant={window.innerWidth < 0 ? "permanent" : "temporary"}
         onClose={() => setMenuOpen(false)}
         open={menuOpen}
         sx={{

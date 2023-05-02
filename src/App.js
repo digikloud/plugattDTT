@@ -15,7 +15,6 @@ import Device from "./Devices/Device";
 import { QueryClient, QueryClientProvider } from "react-query";
 import AnalyticsIndex from "./pages/analytics/analyticsIndex";
 import DdtIndex from "./pages/ddt/ddtindex";
-// import DdtIndex from "./pages/ddt/ddtIndex";
 import Menu from "./pages/menu/menu";
 const reducer = { dashboardreducer };
 const store = configureStore({

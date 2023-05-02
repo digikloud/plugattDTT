@@ -1,10 +1,12 @@
-import { Grid, Paper, Typography,Link } from "@mui/material";
+import { Grid, Paper, Typography, Link } from "@mui/material";
 import React from "react";
-// import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
+import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+
 const paperstyle = {
   padding: 20,
-  height: 'auto',
+  height: "auto",
   textAlign: "center",
   borderRadius: "15px",
   width: "80%",
@@ -12,6 +14,11 @@ const paperstyle = {
   background: "#191c24",
 };
 function Menu() {
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
   return (
     <div>
       <Grid
@@ -29,42 +36,71 @@ function Menu() {
               alt="logo"
               width="100px"
               sx={{ objectFit: "contain" }}
-
             />
-            <div className="menuStyle" >
-            <Link
-            href="https://www.plugatt.com/login"
-            underline="none"
-            target="_blank"
-            sx={{mt:'10px'}}
+            <Accordion
+              expanded={expanded === "login"}
+              onChange={handleChange("login")}
             >
-                Plugatt
-            </Link>
-            <Link
-            href="https://main.djtbyx61dp1za.amplifyapp.com/login"
-            underline="none"
-            target="_blank"
-            sx={{mt:'10px'}}
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="login-content"
+                id="login-header"
+              >
+                <Typography sx={{ color: "#36c1bd", fontSize: "20px" }}>
+                  Login
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <div className="menuStyle">
+                  <Link
+                    href="https://www.plugatt.com/login"
+                    underline="none"
+                    sx={{ fontSize: "18px" }}
+                  >
+                    Plugatt
+                  </Link>
+                  <Link
+                    href="https://main.djtbyx61dp1za.amplifyapp.com/login"
+                    underline="none"
+                    sx={{ mt:'10px',fontSize: "18px" }}
+                  >
+                    PlugattDDT
+                  </Link>
+                </div>
+              </AccordionDetails>
+            </Accordion>
+            <Accordion
+              expanded={expanded === "registration"}
+              onChange={handleChange("registration")}
             >
-                Plugatt DDT
-            </Link>
-            <Link
-            href="https://www.plugatt.com/registration"
-            underline="none"
-            target="_blank"
-            sx={{mt:'10px'}}
-            >
-                Plugatt Registration
-            </Link>
-            <Link
-            href="https://main.djtbyx61dp1za.amplifyapp.com/registration"
-            underline="none"
-            target="_blank"
-            sx={{mt:'10px'}}
-            >
-                Plugatt DDT Registration
-            </Link>
-            </div>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="registration-content"
+                id="registration-header"
+              >
+                <Typography sx={{ color: "#36c1bd", fontSize: "20px" }}>
+                  Registration
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <div className="menuStyle">
+                  <Link
+                    href="https://www.plugatt.com/registration"
+                    underline="none"
+                    sx={{ fontSize: "18px" }}
+                  >
+                    Plugatt
+                  </Link>
+                  <Link
+                    href="https://main.djtbyx61dp1za.amplifyapp.com/registration"
+                    underline="none"
+                    sx={{mt:'10px', fontSize: "18px" }}
+                  >
+                    PlugattDDT
+                  </Link>
+                </div>
+              </AccordionDetails>
+            </Accordion>
           </Grid>
         </Paper>
       </Grid>
