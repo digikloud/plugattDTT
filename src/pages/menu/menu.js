@@ -69,7 +69,7 @@ function Menu() {
                 </div>
               </AccordionDetails>
             </Accordion>
-            <Accordion
+            {/* <Accordion
               expanded={expanded === "registration"}
               onChange={handleChange("registration")}
             >
@@ -100,7 +100,7 @@ function Menu() {
                   </Link>
                 </div>
               </AccordionDetails>
-            </Accordion>
+            </Accordion> */}
           </Grid>
         </Paper>
       </Grid>
